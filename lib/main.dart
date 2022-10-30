@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: "Food App",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        scaffoldBackgroundColor: Colors.white,
+        scaffoldBackgroundColor: Color(0xFFF5F5F3),
       ),
       routes: {
         "/": (context) => HomePage(),

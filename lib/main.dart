@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         scaffoldBackgroundColor: Color(0xFFF5F5F3),
+        fontFamily: "Popin",
       ),
       routes: {
         "/": (context) => HomePage(),

@@ -48,7 +48,7 @@ class PopularItemWidget extends StatelessWidget {
                         "Hot Burger",
                         style: TextStyle(
                           fontFamily: "Poppin",
-                          fontSize: 20,
+                          fontSize: 18,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -78,7 +78,7 @@ class PopularItemWidget extends StatelessWidget {
                           ),
                           Icon(
                             Icons.favorite_border,
-                            color: Colors.purple,
+                            color: Colors.red,
                             size: 26,
                           ),
                         ],
@@ -126,7 +126,7 @@ class PopularItemWidget extends StatelessWidget {
                         "Chicken Salan",
                         style: TextStyle(
                           fontFamily: "Poppin",
-                          fontSize: 20,
+                          fontSize: 18,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -156,7 +156,7 @@ class PopularItemWidget extends StatelessWidget {
                           ),
                           Icon(
                             Icons.favorite_border,
-                            color: Colors.purple,
+                            color: Colors.red,
                             size: 26,
                           ),
                         ],
@@ -205,7 +205,7 @@ class PopularItemWidget extends StatelessWidget {
                         "Cold Drink",
                         style: TextStyle(
                           fontFamily: "Poppin",
-                          fontSize: 20,
+                          fontSize: 18,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -235,7 +235,7 @@ class PopularItemWidget extends StatelessWidget {
                           ),
                           Icon(
                             Icons.favorite_border,
-                            color: Colors.purple,
+                            color: Colors.red,
                             size: 26,
                           ),
                         ],
@@ -283,7 +283,7 @@ class PopularItemWidget extends StatelessWidget {
                         "Hot Pizza",
                         style: TextStyle(
                           fontFamily: "Poppin",
-                          fontSize: 20,
+                          fontSize: 18,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -313,7 +313,7 @@ class PopularItemWidget extends StatelessWidget {
                           ),
                           Icon(
                             Icons.favorite_border,
-                            color: Colors.purple,
+                            color: Colors.red,
                             size: 26,
                           ),
                         ],
@@ -361,7 +361,7 @@ class PopularItemWidget extends StatelessWidget {
                         "Chicken Biryani",
                         style: TextStyle(
                           fontFamily: "Poppin",
-                          fontSize: 20,
+                          fontSize: 18,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -391,7 +391,7 @@ class PopularItemWidget extends StatelessWidget {
                           ),
                           Icon(
                             Icons.favorite_border,
-                            color: Colors.purple,
+                            color: Colors.red,
                             size: 26,
                           ),
                         ],

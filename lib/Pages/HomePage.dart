@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:food_app/Widgets/AppBarWidget.dart';
 import 'package:food_app/Widgets/CategoriesWidget.dart';
 import 'package:food_app/Widgets/PopularItemWidget.dart';
+import 'package:food_app/Widgets/NewstItemWidget.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -100,6 +101,24 @@ class HomePage extends StatelessWidget {
 
           //Popular Items Widget
           PopularItemWidget(),
+
+          //Newst Items
+          Padding(
+            padding: EdgeInsets.only(
+              top: 20,
+              left: 10,
+            ),
+            child: Text(
+              "Newst",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 20,
+              ),
+            ),
+          ),
+
+          //Newst Item Widget
+          NewstItemWidget(),
         ],
       ),
     );

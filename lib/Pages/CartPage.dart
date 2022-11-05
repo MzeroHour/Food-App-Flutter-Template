@@ -1,7 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:food_app/Widgets/AppBarWidget.dart';
+import 'package:food_app/Widgets/CartBottomNavBar.dart';
 import 'package:food_app/Widgets/DrawerWidget.dart';
+import 'package:food_app/Widgets/CartBottomNavBar.dart';
 
 class CartPage extends StatelessWidget {
   const CartPage({super.key});
@@ -462,6 +464,7 @@ class CartPage extends StatelessWidget {
         ],
       ),
       drawer: DrawerWidget(),
+      bottomNavigationBar: CartBottoMNavBar(),
     );
   }
 }

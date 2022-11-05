@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_app/Pages/ItemPage.dart';
 
 class PopularItemWidget extends StatelessWidget {
   const PopularItemWidget({super.key});
@@ -37,11 +38,16 @@ class PopularItemWidget extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Container(
-                        alignment: Alignment.center,
-                        child: Image.asset(
-                          "images/burger.png",
-                          height: 130,
+                      InkWell(
+                        onTap: () {
+                          Navigator.pushNamed(context, "itemPage");
+                        },
+                        child: Container(
+                          alignment: Alignment.center,
+                          child: Image.asset(
+                            "images/burger.png",
+                            height: 130,
+                          ),
                         ),
                       ),
                       Text(

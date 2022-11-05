@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
+import 'package:food_app/Widgets/DrawerWidget.dart';
 
 class NewstItemWidget extends StatelessWidget {
   const NewstItemWidget({super.key});
@@ -17,6 +18,7 @@ class NewstItemWidget extends StatelessWidget {
           children: [
             //Single item
             //for (int i = 0; i < 10; i++)
+
             Padding(
               padding: EdgeInsets.symmetric(
                 vertical: 10,
@@ -38,7 +40,9 @@ class NewstItemWidget extends StatelessWidget {
                 child: Row(
                   children: [
                     InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.pushNamed(context, "itemPage");
+                      },
                       child: Container(
                         alignment: Alignment.center,
                         child: Image.asset("images/pizza.png"),
